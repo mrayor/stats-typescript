@@ -1,0 +1,27 @@
+{
+  "name": "stats-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrayor/stats-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrayor/stats-typescript/issues"
+  },
+  "homepage": "https://github.com/mrayor/stats-typescript#readme",
+  "dependencies": {
+    "@types/node": "^14.0.1",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
